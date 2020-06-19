@@ -202,6 +202,7 @@ justify-content: space-evenly;
 
 .card1 {
     margin-top: 5vh;
+    padding: 5px;
     display: flex;
 	flex-direction: column;
 	flex-basis: 300px;
@@ -290,6 +291,7 @@ justify-content: space-evenly;
   .profile {
     margin: 0 auto;
     margin-top: 10vh;
+    padding: 5px;
     height: 200px;
     width: 200px;
     border-radius: 50%;
