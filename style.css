@@ -130,6 +130,7 @@ nav {
   align-items: flex-start;
 }
 .index-header {
+    margin-top: 1vh;
   font-family: "Poppins", sans-serif;
   font-size: 4em;
   color: rgb(235, 235, 235);
@@ -275,6 +276,8 @@ justify-content: space-evenly;
 
     display: flex;
     flex-direction: column;
+    margin-top: 18vh;
+
     margin: 0 auto;
   }
   .intro-text {
