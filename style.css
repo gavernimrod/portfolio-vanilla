@@ -29,7 +29,7 @@ html , body{
     overflow-x: hidden;
 }
 #bg-img {
-  background: url(../img/background.jpg);
+  background: url(img/background.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
@@ -252,7 +252,7 @@ justify-content: space-evenly;
   }
   #bg-img {
 
-    background: url(../img/background.jpg);
+    background: url(img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
 
