@@ -3,7 +3,9 @@
   padding: 0px;
   /* box-sizing: border-box; */
 }
-html {
+html , body{
+    overflow-x:hidden; 
+
   scroll-behavior: smooth;
 }
 
@@ -23,6 +25,7 @@ html {
   background-color: #303131;
 }
 .site-wrapper {
+    position: relative;
     overflow-x: hidden;
 }
 #bg-img {
