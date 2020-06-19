@@ -240,12 +240,17 @@ justify-content: space-evenly;
     overflow-x: hidden;
   }
   #bg-img {
+    overflow-x: hidden;
+
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
+
   }
   
   #bg-img:after {
+    overflow-x: hidden;
+
     content: "";
     position: fixed;
     top: 0;
