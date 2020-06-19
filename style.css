@@ -7,17 +7,17 @@ html {
   scroll-behavior: smooth;
 }
 #about {
-  height: 50%;
+  /* height: 50%; */
   background-color: #303131;
 }
 
 #projects {
-  height: 50%;
+  /* height: 50%; */
   background-color: #2b2c2c;
 }
 
 #contact {
-  height: 50%;
+  /* height: 100%; */
   background-color: #303131;
 }
 
@@ -26,6 +26,7 @@ html {
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
+  
 }
 
 #bg-img:after {
@@ -176,13 +177,19 @@ nav {
 .cards-container {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-  width: 70%;
+justify-content: space-evenly;
+  /* width: 70%; */
   margin: 0 auto;
   padding: 10px;
 }
 
+.cards-container img {
+ height: 300px;
+ width: 300px;
+  }
+
 .card1 {
+    margin-top: 5vh;
     display: flex;
 	flex-direction: column;
 	flex-basis: 300px;
@@ -190,7 +197,7 @@ nav {
 	flex-grow: 0;
 	max-width: 100%;
     border-radius: 10px;
-border-style: solid #c58008;
+/* border-style: solid #c58008; */
 /* background-color: #8b8b8b */
 ;}
 
@@ -266,6 +273,17 @@ border-style: solid #c58008;
     height: 200px;
     width: 200px;
     border-radius: 50%;
+  }S
+  .about-header {
+      /* margin-top: 20vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(235, 235, 235);
+    padding: 10px;
   }
   .cards-container {
     display: flex;
@@ -273,6 +291,12 @@ border-style: solid #c58008;
     justify-content: space-evenly;
     padding: 10px;
   }
+
+  .cards-container img {
+      margin:0 auto;
+    height: 200px;
+    width: 200px;
+     }
   .nav-links {
     position: absolute;
     /* right: 0px; */
